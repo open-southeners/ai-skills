@@ -30,11 +30,11 @@ All three packages publish their docs on GitBook. The skills work without any ex
 
 Setup instructions: <https://gitbook.com/docs/ai-and-search/mcp-servers-for-published-docs>
 
-The docs spaces to add:
+GitBook exposes a per-space MCP endpoint at `<docs-url>/~gitbook/mcp`. Add one MCP server per package:
 
-- `https://docs.opensoutheners.com/laravel-apiable`
-- `https://docs.opensoutheners.com/laravel-data-mapper`
-- `https://docs.opensoutheners.com/extended-laravel`
+- `https://docs.opensoutheners.com/laravel-apiable/~gitbook/mcp`
+- `https://docs.opensoutheners.com/laravel-data-mapper/~gitbook/mcp`
+- `https://docs.opensoutheners.com/extended-laravel/~gitbook/mcp`
 
 When the MCP is configured, each skill prefers it over `WebFetch`.
 
