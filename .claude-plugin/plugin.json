@@ -1,0 +1,24 @@
+{
+  "name": "open-southeners-oss",
+  "version": "0.1.0",
+  "description": "Author and review code that uses Open Southeners' open-source Laravel packages (laravel-apiable, laravel-data-mapper, extended-laravel).",
+  "author": {
+    "name": "Open Southeners",
+    "url": "https://opensoutheners.com"
+  },
+  "homepage": "https://github.com/open-southeners/ai-skills",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/open-southeners/ai-skills"
+  },
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "open-southeners",
+    "apiable",
+    "json-api",
+    "data-mapper",
+    "dto",
+    "extended-laravel"
+  ]
+}
